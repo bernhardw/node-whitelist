@@ -8,7 +8,7 @@ Whitelist object properties.
 
 ## Install
 
-    npm install git:
+    npm install git://github.com/bernhardw/node-whitelist.git
 
     // TODO:
     npm install node-whitelist
