@@ -1,0 +1,20 @@
+{
+    "name": "node-whitelist",
+    "version": "0.0.0",
+    "description": "Whitelist object properties.",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [
+        "object",
+        "whitelist"
+    ],
+    "author": "Bernhard Wanger <bernhard@trackedo.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    }
+}
