@@ -19,4 +19,8 @@ describe('whitelist(object, keys)', function () {
         whitelist(obj, ['name', 'email']).should.eql(expected);
     });
 
+    it('should not copy over non-existent properties', function () {
+        whitelist(obj, ['name', 'foo']).should.not.have.property('foo');
+    });
+
 });
